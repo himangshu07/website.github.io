@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+.block{
+
+    width: 100%;
+    height: 80%;
+    background-image: url(../order/image/slider.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+
+}
+.line{
+    border: 1px dashed white;
+    width: 100%;
+    height: 50px;
+    margin-top: -1px;
+    margin-left: -1px;
+     margin-right: -2px;
+}
+
+.social{
+    padding-left: 5%;
+}
+
+.social li{
+    
+    list-style: none;
+    display: inline-block;
+    padding: 3px 3px;
+    margin: 3px 3px;
+    color: white;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 10px -3px;
+    cursor: pointer;
+}
+
+.contact{
+    float: right;
+    margin-right: 5%;
+    margin-top: -35px;
+    
+    
+}
+.contact li{
+   list-style: none;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.nav{
+    list-style: none;
+    color: white;
+    margin-top: 15px;
+
+}
+
+.nav options{
+}
+.nav li{
+    list-style: none;
+    float: right;
+    margin: 5px 5px 5px 5px;
+    margin-right: 6%;
+    padding: 3px 3px 3px 3px;
+    margin-top: -15px;
+}
+
+.L{
+    margin-left: 5%;
+}
+.tree{
+    width: 20px;
+        height: 20px;
+ padding-right: 5px;
+}
+
+.logo{
+    padding-left: 25px;
+    
+}
+
+
+.quote{
+    margin-top: 10%;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.q1{
+ font-family: cursive;
+    font-style: italic;
+   
+}
+.q2{
+    font-weight:900;
+}
+.btn{
+    background-color: white;
+  border: none;
+  color: dodgerblue;
+  padding: 15px 32px;
+  text-align: center;
+    margin-top: 5%;
+  text-decoration: none;
+  font-size: 16px;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    background-color: darkgray;
+    transition-delay: 0s;
+    
+}
+
+.content{
+    
+    margin-top: 5%;
+    border: 1px solid green;
+    width: 70%;
+    height: 40%;
+    margin-left: 17%;
+    justify-content: space-between;
+
+}
+p{
+    color: green;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 40%; 
+
+}
+p:hover{
+    color: black;
+    transition-delay: 0s;
+    cursor: default;
+}
+
+.content li{
+    margin-left: 7%;
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 
+}
+
+p1{
+    margin-left: 40%;
+    text-align: justify;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+}
+
+.pic{
+    float: left;
+}
+
+
+.Readbtn{
+    margin-left: 7%;
+background-color: white;
+  border: 1px solid green;
+  color: green;
+  padding: 15px 32px;
+  text-align: center;
+    margin-top: 5%;
+  text-decoration: none;
+  font-size: 16px;
+    border-radius: 2px;
+}
+
+.Readbtn:hover{
+    background-color: green;
+    transition-delay: 0s;
+    color: white;
+        transition-delay: 0s;
+    cursor: pointer;
+}
+
+.time{
+    
+    margin-top: 40%;
+    border: 1px solid green;
+    width: 100%;
+    height: 10%;
+    background-color: green;
+}
+h4{
+    color: white;
+    padding-top 20%;
+    margin-top: 30px;
+    margin-left: 10%;
+    font-size: 25px;
+    float: left;
+    
+}
+
+
+.slots{
+    color: white;
+margin-left: 30%;
+  
+}
+.s1{
+    width: 10%;
+        height: 100%;
+    float:left;
+    border-left: 1px solid white;
+    text-align: center;
+    padding-top: 25px;
+    
+}
+
+.s1 li{
+    list-style: none;
+}
+
+
+.s2{
+    width: 10%;
+        height: 100%;
+    float:left;
+    border-left: 1px solid white;
+     text-align: center;
+     padding-top: 25px;
+}
+
+.s2 li{
+    list-style: none;
+}
+
+
+.s3{
+    width: 10%;
+        height: 100%;
+    float:left;
+    border-left: 1px solid white;
+     text-align: center;
+     padding-top: 25px;
+}
+
+.s3 li{
+    list-style: none;
+}
+
+
+
+
+.s4{
+    width: 10%;
+        height: 100%;
+    float:left;
+    border-left: 1px solid white;
+     text-align: center;
+     padding-top: 25px;
+}
+
+.s4 li{
+    list-style: none;
+}
+
+
+  .s5{
+    width: 10%;
+        height: 100%;
+    float:left;
+      border-left: 1px solid white;
+       text-align: center;
+       padding-top: 25px;
+}
+
+.s5 li{
+    list-style: none;
+}
+
+.s6{
+    width: 10%;
+        height: 100%;
+    float:left;
+    border-left: 1px solid white;
+    border-right: 1px solid white; 
+     text-align: center;
+     padding-top: 25px;
+}
+
+.s6 li{
+    list-style: none;
+  
+}
+
+
+
+.res{
+    
+    width: 100%;
+    height: 30%;
+    background-color: darkcyan;
+}
+
+
+.col1{
+    margin-left: 50px;
+    margin-top: 50px; 
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+
+.G{
+    font-size: 28px;
+    color: white;
+}
+.col1 li{
+    list-style: none;
+}
+
+.col2{
+     margin-top: 50px; 
+    width: 20%;
+    height: 100px;
+    float: left;
+
+}
+.col2 li{
+    list-style: none;
+}
+
+.F{
+    font-size: 28px;
+    color: white;
+}
+
+.col3{
+     margin-top: 50px; 
+    width: 30%;
+    height: 100px;
+    float:right;
+    top: 0;
+    
+}
+
+.N{
+    font-size: 28px;
+    color: white;
+}
+
+
+
+.copy{
+    width: 100%;
+    height: 40px;
+    background-color: white; 
+    text-align: center;
+    padding-top: 5px;
+}
+
