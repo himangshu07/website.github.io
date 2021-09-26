@@ -95,7 +95,11 @@
     color: white;
     text-align: center;
     align-items: center;
+    background: url(./blogimg.png) no-repeat center;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
 }
+
 
 .q1{
  font-family: cursive;
